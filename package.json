@@ -1,0 +1,33 @@
+{
+  "name": "menu-restaurant-api",
+  "version": "1.0.0",
+  "description": "Menu Restaurant API made with Typescript, node, express, mongo and docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekandev/Menu-Restaurant-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lekandev/Menu-Restaurant-API/issues"
+  },
+  "homepage": "https://github.com/lekandev/Menu-Restaurant-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^16.11.1",
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
+  }
+}
