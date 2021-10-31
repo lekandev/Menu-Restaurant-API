@@ -4,7 +4,8 @@
   "description": "Menu Restaurant API made with Typescript, node, express, mongo and docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon ./dist/app.js\""
   },
   "repository": {
     "type": "git",
